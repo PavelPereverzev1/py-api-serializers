@@ -1,4 +1,5 @@
 from rest_framework import viewsets, serializers
+from typing import Type
 from django.db.models import QuerySet
 from cinema.models import Genre, Actor, CinemaHall, MovieSession, Movie
 from cinema.serializers import (
